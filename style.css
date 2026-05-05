@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(248, 233, 214);
+}
+.title{
+    padding-left: 100px;
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.card{
+    background-color: rgb(164, 240, 240);
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.img{
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+}
+.food-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
+
+.name{
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+}
