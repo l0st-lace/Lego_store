@@ -18,6 +18,5 @@ store.addEventListener("click", function(event){
             amount -= 1
             add += price
             currentValue.textContent = add
-            target.setAttribute('amount', amount)
-            console.log(target)}}
+            target.setAttribute('amount', amount)}}
 })
