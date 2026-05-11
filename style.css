@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(248, 213, 211);
+    justify-content: space-around;
+    background-color: rgb(248, 241, 211);
     padding-left: 50px;
 }
 .header__title{
-    margin-left: 100px;
     font-family: "Cause", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -61,10 +61,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-}
-.products__line--down{
     margin-top: 50px;
+
 }
 .line__card{
     height: 450px;
@@ -78,21 +76,22 @@
     padding: 10px;
 }
 .Minecraft{
-    background-color: rgb(198, 246, 198);
+    background-color: rgb(211, 251, 211);
 }
 .line__card--M{
-    background: -webkit-linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
-    background: -moz-linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
-    background: linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
+    background: -webkit-linear-gradient(315deg, rgb(41, 220, 32), rgb(169, 228, 169));
+    background: -moz-linear-gradient(315deg, rgb(41, 220, 32), rgb(169, 228, 169));
+    background: linear-gradient(315deg, rgb(41, 220, 32), rgb(169, 228, 169));
 }
 .currentValue{
     font-family: "Cause", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 50px;
+    font-size: 25px;
     position: sticky;
     bottom: 10px;
+    background-color: rgb(134, 115, 241);
 }
 .currentAmount{
     font-family: "Cause", cursive;
@@ -100,4 +99,29 @@
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
+}
+.products__title{
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.Ninjago{
+    background-color: rgb(250, 216, 216);
+}
+.line__card--N{
+    background: -webkit-linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
+    background: -moz-linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
+    background: linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
+}
+.header__nav{
+    all: unset;
+    cursor: pointer;
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
 }

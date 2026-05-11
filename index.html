@@ -13,115 +13,221 @@
     <header class="header">
         <img class="header__img" src="./LEGO_logo.svg.png" alt="Логотип">
         <h1 class="header__title" >LEGO-store</h1>
+        <a class="header__nav" href="#minecraft">К покупкам!</a>
     </header>
-    <div class="things-to-buy">
-        <div class="Minecraft">
+    <main>
+        <div class="advantages"></div>
+        <div class="things-to-buy">
+            <div id="minecraft" class="Minecraft">
+                <span class="products__title" >Minecraft</span>
+                <div class="products__line">
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Столкновение с Варденом</div>
+                        <img class="card__img" src="./minecraft-warden.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 1699р</span>
 
-            <div class="products__line">
-                <div class="line__card line__card--M">
-                    <div class="card__name">Столкновение с Варденом</div>
-                    <img class="card__img" src="./minecraft-warden.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 1699р</span>
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-1699" number = "0" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="1699" number = "0" amount="0" >+</button>
+                        </div>
+                    </div>
 
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-1699" number = "0" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="1699" number = "0" amount="0" >+</button>
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Дракон Эндера и Корабль</div>
+                        <img class="card__img" src="./minecraft-dragon.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 9499р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-9499" number = "1" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="9499" number = "1" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Черепаший пляжный домик</div>
+                        <img class="card__img" src="./minecraft-turtle.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 2999р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-2999" number = "2" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="2999" number = "2" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Лягушачий дом</div>
+                        <img class="card__img" src="./minecraft-frog.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 5999р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-5999" number = "3" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="5999" number = "3" amount="0" >+</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="line__card line__card--M">
-                    <div class="card__name">Дракон Эндера и Корабль</div>
-                    <img class="card__img" src="./minecraft-dragon.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 9499р</span>
 
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-9499" number = "1" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="9499" number = "1" amount="0" >+</button>
+                <div class="products__line">
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Форпост мародеров</div>
+                        <img class="card__img" src="./minecraft-ravanger.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 6999р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-6999" number = "4" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="6999" number = "4" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--M">
+                        <div class="card__name">На пиратском корабле</div>
+                        <img class="card__img" src="./minecraft-boat.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 1799р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-1799" number = "5" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="1799" number = "5" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Битва с Визером</div>
+                        <img class="card__img" src="./minecraft-viser.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 6799р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-6799" number = "6" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="6799" number = "6" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--M">
+                        <div class="card__name">Нападение на деревню</div>
+                        <img class="card__img" src="./minecraft-film.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 6399р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-6399" number = "7" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="6399" number = "7" amount="0" >+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="Ninjago">
+                <span class="products__title" >Ninjago</span>
+                <div class="products__line">
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Выставка персонажей ниндзя</div>
+                        <img class="card__img" src="./ninjago-person.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 4799р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-4799" number = "8" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="4799" number = "8" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Робот драконий всадник Роуга</div>
+                        <img class="card__img" src="./ninjago-dragon.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 6499р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-6499" number = "9" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="6499" number = "9" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Машина-трансформер Джея</div>
+                        <img class="card__img" src="./ninjago-car.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 5199р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-5199" number = "10" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="5199" number = "10" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Реактивный робот Лойда </div>
+                        <img class="card__img" src="./ninjago-robot.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 8299р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-8299" number = "11" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="8299" number = "11" amount="0" >+</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="line__card line__card--M">
-                    <div class="card__name">Черепаший пляжный домик</div>
-                    <img class="card__img" src="./minecraft-turtle.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 2999р</span>
 
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-2999" number = "2" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="2999" number = "2" amount="0" >+</button>
+                <div class="products__line">
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Элементальный огненный меч Кая</div>
+                        <img class="card__img" src="./ninjago-robots.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 3299р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-3299" number = "12" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="3299" number = "12" amount="0" >+</button>
+                        </div>
                     </div>
-                </div>
 
-                <div class="line__card line__card--M">
-                    <div class="card__name">Лягушачий дом</div>
-                    <img class="card__img" src="./minecraft-frog.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 5999р</span>
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Дракон Жизни</div>
+                        <img class="card__img" src="./ninjago-life.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 11999р</span>
 
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-5999" number = "3" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="5999" number = "3" amount="0" >+</button>
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-11999" number = "13" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="11999" number = "13" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Внедорожный багги Арина Ниндзя</div>
+                        <img class="card__img" src="./ninjago-jip.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 5599р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-5599" number = "14" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="5599" number = "14" amount="0" >+</button>
+                        </div>
+                    </div>
+
+                    <div class="line__card line__card--N">
+                        <div class="card__name">Турнирная боевая арена</div>
+                        <img class="card__img" src="./ninjago-arena.webp" alt="набор лего">
+                        <span class="card__price" >Цена: 5099р</span>
+
+                        <div class="card__btn-holder">
+                            <button class="btn minBtn" price="-5099" number = "15" >-</button>
+                            <span class="currentAmount" >0</span>
+                            <button class="btn" price="5099" number = "15" amount="0" >+</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-
-            <div class="products__line products__line--down">
-                <div class="line__card line__card--M">
-                    <div class="card__name">Форпост мародеров</div>
-                    <img class="card__img" src="./minecraft-ravanger.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 6999р</span>
-
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-6999" number = "4" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="6999" number = "4" amount="0" >+</button>
-                    </div>
-                </div>
-
-                <div class="line__card line__card--M">
-                    <div class="card__name">На пиратском корабле</div>
-                    <img class="card__img" src="./minecraft-boat.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 1799р</span>
-
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-1799" number = "5" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="1799" number = "5" amount="0" >+</button>
-                    </div>
-                </div>
-
-                <div class="line__card line__card--M">
-                    <div class="card__name">Битва с Визером</div>
-                    <img class="card__img" src="./minecraft-viser.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 6799р</span>
-
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-6799" number = "6" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="6799" number = "6" amount="0" >+</button>
-                    </div>
-                </div>
-
-                <div class="line__card line__card--M">
-                    <div class="card__name">Нападение на деревню</div>
-                    <img class="card__img" src="./minecraft-film.webp" alt="набор лего">
-                    <span class="card__price" >Цена: 6399р</span>
-
-                    <div class="card__btn-holder">
-                        <button class="btn minBtn" price="-6399" number = "7" >-</button>
-                        <span class="currentAmount" >0</span>
-                        <button class="btn" price="6399" number = "7" amount="0" >+</button>
-                    </div>
-                </div>
-            </div>
+            <span class="currentValue">0 P</span>
         </div>
-
-        <div class="currentValue">0</div>
-    </div>
-
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>

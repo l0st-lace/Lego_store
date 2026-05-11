@@ -11,7 +11,7 @@ store.addEventListener("click", function(event){
         let amount = Number(minBtn.getAttribute("amount"))
         amount += 1
         add += price
-        currentValue.textContent = add
+        currentValue.textContent = add + " р"
         currentAmount.textContent = amount
         minBtn.setAttribute("amount", amount)}
     else{
@@ -21,7 +21,7 @@ store.addEventListener("click", function(event){
             let currentAmount = store.querySelectorAll(".currentAmount")[num]
             amount -= 1
             add += price
-            currentValue.textContent = add
+            currentValue.textContent = add + " р"
             currentAmount.textContent = amount
             target.setAttribute('amount', amount)}}
 })
