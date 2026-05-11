@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
     background-color: rgb(248, 241, 211);
     padding-left: 50px;
 }
@@ -12,6 +11,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 50px;
+    margin-left: 100px;
 }
 
 .header__img{
@@ -114,14 +114,4 @@
     background: -webkit-linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
     background: -moz-linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
     background: linear-gradient(135deg, rgb(234, 183, 183), rgb(232, 41, 41));
-}
-.header__nav{
-    all: unset;
-    cursor: pointer;
-    font-family: "Cause", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 50px;
-    color: black;
 }
