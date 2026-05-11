@@ -36,6 +36,7 @@
     align-self: stretch;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .btn{
     width: 100px;
@@ -83,4 +84,20 @@
     background: -webkit-linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
     background: -moz-linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
     background: linear-gradient(315deg, rgb(12, 251, 0), rgb(169, 228, 169));
+}
+.currentValue{
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    position: sticky;
+    bottom: 10px;
+}
+.currentAmount{
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
 }
